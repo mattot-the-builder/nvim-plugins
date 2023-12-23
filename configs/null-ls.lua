@@ -9,9 +9,12 @@ local sources = {
    formatting.gofumpt,
    formatting.phpcsfixer,
    formatting.blade_formatter,
+   formatting.blade_formatter,
+   formatting.rustywind,
 
    lint.golangci_lint,
    lint.phpcs,
+   lint.eslint_d,
 }
 
 local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
